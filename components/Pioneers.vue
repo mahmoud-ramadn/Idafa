@@ -5,12 +5,12 @@
       class="flex flex-wrap items-center justify-center w-full h-full py-20 gap-y-20 gap-x-28 lg:py-28"
     >
       <div
-        class="relative  before:content-['']  before:absolute   "
+        class="relative  before:content-['']  before:absolute  before:border   before:border-blue-600  before:z-[-1]   before:bottom-[-16px]  before:left-[-22px]  before:w-full before:h-full   before:rounded-tr-[120px] before:rounded-bl-[120px]  min-w-[504px]       "
       >
         <img
           :src="codeImage"
           alt="Code illustration"
-          class="object-cover block w-full aspect-[6/5]  max-w-full lg:max-w-[500px]"
+          class="object-cover block w-full aspect-[6/5] max-w-full lg:max-w-[500px] z-10 rounded-tr-[120px] rounded-bl-[120px]   "
           loading="lazy"
         />
       </div>
